@@ -1,6 +1,36 @@
-# gitignore template for LangChain products, e.g., LangGraph, LangSmith
-# website: https://www.langchain.com/
-# website: https://www.langchain.com/langgraph
+.vs/
+.claude/
+.idea/
 
 # LangGraph
 .langgraph_api/
+.ipynb_checkpoints
+notebooks/
+
+# pyenv
+.python-version
+uv.lock
+# Environments
+.env
+.envrc
+.venv*
+venv*
+env/
+ENV/
+env.bak/
+
+# mypy
+.mypy_cache/
+.mypy_cache_test/
+.dmypy.json
+dmypy.json
+
+
+# macOS display setting files
+.DS_Store
+
+node_modules
+
+prof
+virtualenv/
+scratch/
